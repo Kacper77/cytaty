@@ -6,8 +6,6 @@ $(function() {
     function getQuote() {
         $.getJSON(prefix + quoteUrl, createTweet);
         $.ajaxSetup({ cache: false });
-        $.getJSON(quoteUrl, createTweet);
-
     }
 
     function createTweet(input) {
@@ -30,10 +28,9 @@ $(function() {
             $('.tweet').attr('href', tweet);
         }
     }
-    $(document).ready(function() {
+
+    getQuote();
+    $('.trigger').click(function() {
         getQuote();
-        $('.trigger').click(function() {
-            getQuote();
-        })
-    });
+    })
 });

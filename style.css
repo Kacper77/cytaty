@@ -1,25 +1,51 @@
-body {
-    background-color: #55acee;
-}
+    body {
+        background-color: #55acee;
+    }
 
-h1 {
-    text-align: center;
-    color: #fff;
-}
+    h1 {
+        text-align: center;
+        color: #fff;
+    }
 
-.box {
-    width: 600px;
-    height: auto;
-    margin: 0 auto;
-}
+    .box {
+        width: 600px;
+        height: auto;
+        margin: 0 auto;
+    }
 
-h2 {
-    color: #fff;
-    font-size: 50px;
-    text-align: center;
-}
+    h2 {
+        color: #fff;
+        font-size: 50px;
+        text-align: center;
+    }
 
-h3 {
-    text-align: center;
-    color: #fff;
-}
+    h3 {
+        text-align: center;
+        color: #fff;
+    }
+
+    .trigger {
+
+        margin: 0 auto;
+        width: 30%;
+        background-color: #55acee;
+        padding: 10px;
+        font-size: 15px;
+        border: 1px solid white;
+        display: block;
+        color: #fff;
+    }
+
+    a {
+        width: 28%;
+        font-size: 15px;
+        color: green;
+        border: 1px solid white;
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }

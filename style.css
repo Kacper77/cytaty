@@ -1,51 +1,59 @@
-    body {
-        background-color: #55acee;
-    }
+   @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster');
+   * {
+       box-sizing: border-box;
+   }
 
-    h1 {
-        text-align: center;
-        color: #fff;
-    }
+   body {
+       background-color: #55acee;
+       font-family: Arial, sans-serif;
+   }
 
-    .box {
-        width: 600px;
-        height: auto;
-        margin: 0 auto;
-    }
+   h1 {
+       text-align: center;
+       color: #fff;
+   }
 
-    h2 {
-        color: #fff;
-        font-size: 50px;
-        text-align: center;
-    }
+   .box {
+       width: 600px;
+       height: auto;
+       margin: 0 auto;
+   }
 
-    h3 {
-        text-align: center;
-        color: #fff;
-    }
+   h2 {
+       color: #fff;
+       font-size: 50px;
+       text-align: center;
+       font-family: 'Lobster', cursive;
+   }
 
-    .trigger {
+   h3 {
+       text-align: center;
+       color: #fff;
+       font-family: 'Indie Flower', cursive;
+   }
 
-        margin: 0 auto;
-        width: 30%;
-        background-color: #55acee;
-        padding: 10px;
-        font-size: 15px;
-        border: 1px solid white;
-        display: block;
-        color: #fff;
-    }
+   button {
 
-    a {
-        width: 28%;
-        font-size: 15px;
-        color: green;
-        border: 1px solid white;
-        padding: 10px;
-        display: block;
-        margin: 0 auto;
-        margin-top: 60px;
-        text-align: center;
-        text-decoration: none;
-        color: #fff;
-    }
+       margin: 0 auto;
+       width: 30%;
+       background-color: #55acee;
+       padding: 10px;
+       font-size: 15px;
+       border: 1px solid white;
+       display: block;
+       color: #fff;
+   }
+
+   a {
+       width: 30%;
+       font-size: 15px;
+       color: green;
+       border: 1px solid white;
+       padding: 10px;
+       display: block;
+       margin: 0 auto;
+       margin-top: 30px;
+       text-align: center;
+       text-decoration: none;
+       color: #fff;
+   }
